@@ -52,6 +52,8 @@ def main():
     calculatedDataSet = splitInput(splitDataSet)
 
     totalCalsSet = calculateTotalCals(calculatedDataSet)
-    
+
     print(calculateTopThree(totalCalsSet))
 
+
+main()
